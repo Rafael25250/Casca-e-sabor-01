@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav.menu {
+  border-bottom: coral solid 3px;
+  background-color: rgb(51, 19, 19);
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  font-size: 22px;
+  height: 72px;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+}
+
+
+.menu h1 {
+  align-self: center;
+  font-size: 40px;
+  color: #f1632f;
+  margin-left: 100px;
+}
+
+.menu h1 span {
+  color: rgb(255, 255, 255);
+}
+
+.menu li a {
+  color: white;
+  margin-right: 26px;
+  text-decoration: none;
+}
