@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(96.33deg,rgba(227, 224, 207, 0.26) 2.57%,rgba(248, 242, 237, 0.247) 47.57%,rgba(230, 224, 213, 0.356) 92.58%),#d5c8bc69;
 }
 
 nav.menu {
-  border-bottom: coral solid 3px;
+  border-bottom: #F5A58A solid 3px;
   background-color: rgb(51, 19, 19);
 }
 
@@ -44,8 +49,8 @@ nav.menu {
 .container {
   margin: 0 auto;
   width: 84%;
+  display: flex;
   justify-content: center;
-  background-color: violet;
 }
 
 .fotos {
@@ -74,5 +79,60 @@ nav.menu {
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+.sessao {
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.sessao ul {
+  list-style: none;
+  font-size: 20px;
   
+}
+
+.sessao ul li a {
+  text-decoration: none;
+  color: #f37247;
+}
+
+.sessao ul li a:hover {
+  text-decoration: none;
+  color: #ff4800;
+}
+
+.container .social-media ul {
+  display: flex;
+  justify-content: center;
+}
+
+.container .social-media ul li {
+  margin: 0px 15px 0px 15px;
+}
+
+
+.container .social-media ul li i {
+  
+}
+
+.sessao p {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.logo {
+  font-size: 62px;
+  padding: 36px;
+}
+
+ div.doces {
+  font-size: 32px;
+  padding: 24px;
+}
+
+picture.carrosel img{
+  width: 100%;
+  height: 450px;
+  background-color: rgb(39, 39, 124);
 }
