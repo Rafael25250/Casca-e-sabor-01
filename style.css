@@ -42,6 +42,10 @@ nav.menu {
   text-decoration: none;
 }
 
+.menu li a:hover {
+  color: #f3865e;
+}
+
 .menu li:last-child {
   margin-right: 100px;
 }
@@ -88,8 +92,7 @@ nav.menu {
 
 .sessao ul {
   list-style: none;
-  font-size: 20px;
-  
+  font-size: 32px;
 }
 
 .sessao ul li a {
@@ -104,11 +107,11 @@ nav.menu {
 
 .container .social-media ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .container .social-media ul li {
-  margin: 0px 15px 0px 15px;
+  margin: 0px 15px 0px 0px;
 }
 
 
@@ -117,7 +120,7 @@ nav.menu {
 }
 
 .sessao p {
-  font-size: 36px;
+  font-size: 26px;
   margin-bottom: 12px;
 }
 
@@ -135,4 +138,21 @@ picture.carrosel img{
   width: 100%;
   height: 450px;
   background-color: rgb(39, 39, 124);
+}
+
+div.contact ul {
+  font-size: 22px;
+}
+
+div.contact ul li{
+  padding: 8px 8px 8px 0;
+}
+
+footer {
+  height: 100px;
+  background: linear-gradient(96.33deg,rgba(227, 224, 207, 0.26) 2.57%,rgba(248, 242, 237, 0.247) 47.57%,rgba(230, 224, 213, 0.356) 92.58%),#d5c8bcd0;
+}
+
+footer p {
+  margin-top: 46px;
 }
